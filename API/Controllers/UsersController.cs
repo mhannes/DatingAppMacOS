@@ -28,6 +28,7 @@ namespace API.Controllers
     
         }
 
+        //opvragen van een user via id
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
