@@ -20,6 +20,7 @@ namespace API.Controllers
             _context = context;
         }
 
+        //opvragen van alle users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
